@@ -7,6 +7,7 @@ El proyecto consiste en un e-commerce básico con posibilidad de agregar, quitar
 -  React Bootstrap 🚀
 -  Firebase 🔥
 -  Vite JS ⛈️
+-  React-router-dom 🤖
 ##
 Alumno: Leonardo Grasso.
 
