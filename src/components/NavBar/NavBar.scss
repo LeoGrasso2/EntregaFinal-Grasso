@@ -9,6 +9,12 @@
             border-bottom: 2px solid black;
             margin-bottom: -2px;
         }
+
+        a:last-child{
+            border: none;
+            margin-bottom: 0px;
+                
+        }
     }
     
 }

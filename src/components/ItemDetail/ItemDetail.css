@@ -1,12 +1,55 @@
 .detailCardWrapper {
-  width: 45rem;
+  width: 35rem;
   background-color: rgba(182, 72, 72, 0.855) !important;
 }
 .detailCardWrapper .detailCardImage {
   width: 150px;
 }
+.detailCardWrapper .detailCardContent .detailCardDescription {
+  text-align: center;
+  padding: 10px;
+}
+.detailCardWrapper .detailCardPrice {
+  display: flex;
+  justify-content: center;
+}
+.detailCardWrapper .detailCardPrice .price {
+  font-weight: bold;
+}
 
 .detailCardId {
   color: black;
   width: 100%;
+}
+
+.categoryWrapper {
+  text-align: center;
+}
+.categoryWrapper .category {
+  font-size: 12px;
+}
+
+.quantityChoose {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.quantityChoose button {
+  margin: 10px;
+}
+
+.addToCart {
+  background-color: rgb(193, 78, 78) !important;
+  color: black;
+  border: 2px solid black;
+  transition: 0.4s;
+  font-size: 12px;
+  width: 10rem;
+}
+.addToCart:hover {
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(255, 97, 97) !important;
+  border-radius: 50px;
+  color: black;
 }/*# sourceMappingURL=ItemDetail.css.map */

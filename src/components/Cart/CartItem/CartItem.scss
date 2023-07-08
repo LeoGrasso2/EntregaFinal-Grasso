@@ -1,0 +1,27 @@
+.cartItemWrapper{
+    width: 15rem;
+    .cartItemImg img{
+        width: 100px;
+    }
+    
+    .quantityChoose{
+        
+        .itemQuantity{
+            margin: 0px 10px 0px 10px;
+        }
+    }
+
+    .cartItemContent{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(182, 72, 72, 0.855);
+        align-items: center;
+        border-radius: 15px;
+
+        .cartItemName{
+            margin-left: 15px;
+            font-size: 16px;
+        }
+    
+    }
+}

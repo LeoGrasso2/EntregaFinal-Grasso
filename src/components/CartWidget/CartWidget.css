@@ -2,21 +2,31 @@
   margin-right: 10px;
 }
 .logo img {
+  transition: 0.3s;
   max-width: 35px;
 }
 .logo .number {
+  transition: 0.3s;
   color: black;
   font-size: 12px;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
-  margin: -5px 1px 0px 1px;
+  margin: -10px 1px 0px 5px;
   width: 20px;
   height: 20px;
-  padding: 10px;
-  border-radius: 20px;
-  background-color: white;
+  padding: 12px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: rgb(210, 101, 101);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.logo:hover img {
+  transform: rotateZ(-5deg);
+}
+.logo:hover .number {
+  background-color: rgb(230, 111, 111);
 }/*# sourceMappingURL=CartWidget.css.map */

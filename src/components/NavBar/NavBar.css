@@ -7,4 +7,8 @@
 .navbar .navbar-nav a:hover {
   border-bottom: 2px solid black;
   margin-bottom: -2px;
+}
+.navbar .navbar-nav a:last-child {
+  border: none;
+  margin-bottom: 0px;
 }/*# sourceMappingURL=NavBar.css.map */

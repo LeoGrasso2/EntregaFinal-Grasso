@@ -14,7 +14,7 @@ const NavBar = () => {
             <Nav className="d-flex flex-sm-column align-items-center flex-md-row">
                 <Link style={{ textDecoration: 'none' }} to="category/pokemon"><Nav.Link href="category/pokemon">Pokemons</Nav.Link></Link>
                 <Link style={{ textDecoration: 'none' }} to="category/objects"><Nav.Link href="category/objects">Objetos</Nav.Link></Link>
-                <CartWidget></CartWidget>
+                <Link style={{ textDecoration: 'none' }} to="/cart"><CartWidget></CartWidget></Link>
             </Nav>
         </Container>
     </Navbar>

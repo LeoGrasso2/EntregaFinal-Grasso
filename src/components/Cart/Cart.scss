@@ -1,0 +1,33 @@
+.cart{
+
+    .finishBtn{
+        background-color: rgb(193, 78, 78) !important;
+        color: black;
+        border: 0px solid black;
+        transition: .4s;
+        font-size: 16px;
+        margin-top: 20px;
+
+        &:hover{
+            border-color: rgb(0, 0, 0);
+            background-color: rgb(255, 97, 97) !important;
+            border-radius: 50px;
+            color: black;
+    }
+
+    
+    }
+
+    .totalPrice{
+        margin-top: 10px;
+    }
+
+    .orderId{
+        display: flex;
+        text-align: center;
+        background-color: rgba(182, 72, 72, 0.855);
+        max-width: fit-content;
+        padding: 20px;
+        border-radius: 20px;
+    }
+}

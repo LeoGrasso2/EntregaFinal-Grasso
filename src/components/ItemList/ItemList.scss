@@ -16,6 +16,7 @@
             grid-template-columns: repeat(auto-fill, minmax(150px, .8fr));
         }
     }
+    
     .centeredDiv {
         grid-column: 1 / -1; /* Span across all grid columns */
         display: flex;
